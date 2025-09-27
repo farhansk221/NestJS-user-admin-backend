@@ -12,7 +12,7 @@ export class UserController {
     //Main Hoome page controllers
     @Get()
     getAllUser(){
-        return this.userService.getAllUser();
+        return {}
     }
 
     @Get("/:id")
